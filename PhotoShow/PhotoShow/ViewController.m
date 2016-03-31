@@ -27,6 +27,8 @@
     
     cirSc.frame = CGRectMake(20, 50, 300, 130);
     
+    cirSc.timerVal = 2.0;
+    
     //    cirSc.imageNamesArray = @[@"img_00"];
     
     cirSc.imageNamesArray = @[@"img_00",@"img_01",@"img_02",@"img_03",@"img_04"];

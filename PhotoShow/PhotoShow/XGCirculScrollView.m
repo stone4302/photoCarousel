@@ -155,16 +155,12 @@ static int const imageViewCount = 3;
     }else {
         [self.scrollView setContentOffset:CGPointMake(self.scrollView.contentOffset.x + self.frame.size.width, 0) animated:YES];
     }
-    
-//    [UIView animateWithDuration:0.3 animations:^{
-//        self.scrollView.contentOffset = CGPointMake(self.scrollView.contentOffset.x + self.frame.size.width, 0);
-//    }];
 }
 
 #pragma mark - 开启定时器
 - (void)startTimer{
     if (self.timer == nil) {
-        NSTimer *timer = [NSTimer timerWithTimeInterval:2 target:self selector:@selector(next) userInfo:nil repeats:YES];
+        NSTimer *timer = [NSTimer timerWithTimeInterval:self.timerVal ? self.timerVal:5 target:self selector:@selector(next) userInfo:nil repeats:YES];
         [[NSRunLoop mainRunLoop] addTimer:timer forMode:NSDefaultRunLoopMode];
         self.timer = timer;
     }

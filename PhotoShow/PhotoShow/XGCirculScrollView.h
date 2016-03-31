@@ -14,6 +14,8 @@
 
 /** 滚动图片名称 */
 @property (nonatomic,strong) NSArray *imageNamesArray;
+/** 图片自动滑动的时间间隔 */
+@property (nonatomic,assign) CGFloat timerVal;
 /** 是否可以手动滑动 */
 @property (assign,nonatomic,getter=isUserEnabled) BOOL userEnabled;
 /** 分页选择器选中是的颜色 */
