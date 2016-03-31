@@ -15,6 +15,7 @@
 		3BBF49D31CAD058C002965AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF49D11CAD058C002965AB /* LaunchScreen.storyboard */; };
 		3BBF49DE1CAD058C002965AB /* PhotoShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF49DD1CAD058C002965AB /* PhotoShowTests.m */; };
 		3BBF49E91CAD058C002965AB /* PhotoShowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF49E81CAD058C002965AB /* PhotoShowUITests.m */; };
+		3BBF49F81CAD0CEC002965AB /* XGCirculScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF49F71CAD0CEC002965AB /* XGCirculScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3BBF49E41CAD058C002965AB /* PhotoShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoShowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBF49E81CAD058C002965AB /* PhotoShowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoShowUITests.m; sourceTree = "<group>"; };
 		3BBF49EA1CAD058C002965AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BBF49F61CAD0CEC002965AB /* XGCirculScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGCirculScrollView.h; sourceTree = "<group>"; };
+		3BBF49F71CAD0CEC002965AB /* XGCirculScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGCirculScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		3BBF49C21CAD058C002965AB /* PhotoShow */ = {
 			isa = PBXGroup;
 			children = (
+				3BBF49F61CAD0CEC002965AB /* XGCirculScrollView.h */,
+				3BBF49F71CAD0CEC002965AB /* XGCirculScrollView.m */,
 				3BBF49C61CAD058C002965AB /* AppDelegate.h */,
 				3BBF49C71CAD058C002965AB /* AppDelegate.m */,
 				3BBF49C91CAD058C002965AB /* ViewController.h */,
@@ -272,6 +277,7 @@
 			files = (
 				3BBF49CB1CAD058C002965AB /* ViewController.m in Sources */,
 				3BBF49C81CAD058C002965AB /* AppDelegate.m in Sources */,
+				3BBF49F81CAD0CEC002965AB /* XGCirculScrollView.m in Sources */,
 				3BBF49C51CAD058C002965AB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +504,7 @@
 				3BBF49EF1CAD058C002965AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BBF49F01CAD058C002965AB /* Build configuration list for PBXNativeTarget "PhotoShowTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				3BBF49F21CAD058C002965AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BBF49F31CAD058C002965AB /* Build configuration list for PBXNativeTarget "PhotoShowUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				3BBF49F51CAD058C002965AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
